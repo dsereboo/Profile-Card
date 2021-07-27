@@ -33,7 +33,7 @@ export default function App() {
       </View>
 
       <TouchableOpacity style={styles.button}>
-        <Text styles={styles.buttonText}>UPDATE PROFILE</Text>
+        <Text style={styles.buttonText}>UPDATE PROFILE</Text>
       </TouchableOpacity>
 
 
@@ -85,13 +85,17 @@ const styles = StyleSheet.create({
     padding:12,
     marginTop:20,
     borderRadius:20,
+    alignItems:'center',
+   
     
   },
+
   buttonText:{
-    fontSize:18,
     color:"#FFFFFF",
-    
-  },
+    fontSize:18,
+  }
+
+  
 
 
 
